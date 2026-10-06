@@ -13,7 +13,8 @@
       "slide_inner_class": "slide-inner trigger-item no-change-header",
       "projectbgcolor": "#c8c8c8",
       "hl_slide_class": "clapat-slide no-change-header",
-      "pg_trigger_class": "trigger-item change-header"
+      "pg_trigger_class": "trigger-item change-header",
+      "video": ""
     },
     {
       "slug": "stena-air",
@@ -28,7 +29,8 @@
       "slide_inner_class": "slide-inner trigger-item no-change-header",
       "projectbgcolor": "#b8b6a7",
       "hl_slide_class": "clapat-slide no-change-header",
-      "pg_trigger_class": "trigger-item change-header"
+      "pg_trigger_class": "trigger-item change-header",
+      "video": ""
     },
     {
       "slug": "the-infin",
@@ -43,7 +45,8 @@
       "slide_inner_class": "slide-inner trigger-item no-change-header",
       "projectbgcolor": "#0c0c0c",
       "hl_slide_class": "clapat-slide no-change-header",
-      "pg_trigger_class": "trigger-item "
+      "pg_trigger_class": "trigger-item ",
+      "video": ""
     },
     {
       "slug": "the-invincibles",
@@ -74,7 +77,8 @@
       "slide_inner_class": "slide-inner trigger-item change-header",
       "projectbgcolor": "#f0efeb",
       "hl_slide_class": "clapat-slide change-header",
-      "pg_trigger_class": "trigger-item change-header"
+      "pg_trigger_class": "trigger-item change-header",
+      "video": ""
     },
     {
       "slug": "voxa-speaker",
@@ -89,7 +93,8 @@
       "slide_inner_class": "slide-inner trigger-item no-change-header",
       "projectbgcolor": "#0c0c0c",
       "hl_slide_class": "clapat-slide no-change-header",
-      "pg_trigger_class": "trigger-item "
+      "pg_trigger_class": "trigger-item ",
+      "video": ""
     },
     {
       "slug": "nanotech-agency",
@@ -104,7 +109,8 @@
       "slide_inner_class": "slide-inner trigger-item no-change-header",
       "projectbgcolor": "#c8c8c8",
       "hl_slide_class": "clapat-slide no-change-header",
-      "pg_trigger_class": "trigger-item change-header"
+      "pg_trigger_class": "trigger-item change-header",
+      "video": ""
     },
     {
       "slug": "vx-lab",
@@ -119,7 +125,8 @@
       "slide_inner_class": "slide-inner trigger-item no-change-header",
       "projectbgcolor": "#4b4d4f",
       "hl_slide_class": "clapat-slide no-change-header",
-      "pg_trigger_class": "trigger-item "
+      "pg_trigger_class": "trigger-item ",
+      "video": ""
     }
   ]
 }

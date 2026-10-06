@@ -72,70 +72,70 @@ collections:
         label: Images and videos
         file: content/images.json
         fields:
-          - {label: "assets/images/01hero.jpg", name: "assets/images/01hero.jpg", widget: image}
-          - {label: "assets/images/01hero1.jpg", name: "assets/images/01hero1.jpg", widget: image}
-          - {label: "assets/images/02hero.jpg", name: "assets/images/02hero.jpg", widget: image}
-          - {label: "assets/images/02hero1.jpg", name: "assets/images/02hero1.jpg", widget: image}
-          - {label: "assets/images/03hero.jpg", name: "assets/images/03hero.jpg", widget: image}
-          - {label: "assets/images/04hero.jpg", name: "assets/images/04hero.jpg", widget: image}
-          - {label: "assets/images/04hero.mp4", name: "assets/images/04hero.mp4", widget: file, required: false}
-          - {label: "assets/images/05hero.jpg", name: "assets/images/05hero.jpg", widget: image}
-          - {label: "assets/images/06hero.jpg", name: "assets/images/06hero.jpg", widget: image}
-          - {label: "assets/images/07hero.jpg", name: "assets/images/07hero.jpg", widget: image}
-          - {label: "assets/images/08hero.jpg", name: "assets/images/08hero.jpg", widget: image}
-          - {label: "assets/images/about.jpg", name: "assets/images/about.jpg", widget: image}
-          - {label: "assets/images/chair01.jpg", name: "assets/images/chair01.jpg", widget: image}
-          - {label: "assets/images/chair02.jpg", name: "assets/images/chair02.jpg", widget: image}
-          - {label: "assets/images/chair03.jpg", name: "assets/images/chair03.jpg", widget: image}
-          - {label: "assets/images/displacement/aqua-light.jpg", name: "assets/images/displacement/aqua-light.jpg", widget: image}
-          - {label: "assets/images/eyes.png", name: "assets/images/eyes.png", widget: image}
-          - {label: "assets/images/image01.jpg", name: "assets/images/image01.jpg", widget: image}
-          - {label: "assets/images/image02.jpg", name: "assets/images/image02.jpg", widget: image}
-          - {label: "assets/images/image03.jpg", name: "assets/images/image03.jpg", widget: image}
-          - {label: "assets/images/image04.jpg", name: "assets/images/image04.jpg", widget: image}
-          - {label: "assets/images/intro.mp4", name: "assets/images/intro.mp4", widget: file, required: false}
-          - {label: "assets/images/kivira01.jpg", name: "assets/images/kivira01.jpg", widget: image}
-          - {label: "assets/images/kivira02.jpg", name: "assets/images/kivira02.jpg", widget: image}
-          - {label: "assets/images/kivira03.jpg", name: "assets/images/kivira03.jpg", widget: image}
-          - {label: "assets/images/logo-white.png", name: "assets/images/logo-white.png", widget: image}
-          - {label: "assets/images/logo.png", name: "assets/images/logo.png", widget: image}
-          - {label: "assets/images/nanotech01.jpg", name: "assets/images/nanotech01.jpg", widget: image}
-          - {label: "assets/images/nanotech02.jpg", name: "assets/images/nanotech02.jpg", widget: image}
-          - {label: "assets/images/nanotech03.jpg", name: "assets/images/nanotech03.jpg", widget: image}
-          - {label: "assets/images/parallax.jpg", name: "assets/images/parallax.jpg", widget: image}
-          - {label: "assets/images/pinned01.jpg", name: "assets/images/pinned01.jpg", widget: image}
-          - {label: "assets/images/pinned02.jpg", name: "assets/images/pinned02.jpg", widget: image}
-          - {label: "assets/images/shortcodes/image01.jpg", name: "assets/images/shortcodes/image01.jpg", widget: image}
-          - {label: "assets/images/shortcodes/pinned01.jpg", name: "assets/images/shortcodes/pinned01.jpg", widget: image}
-          - {label: "assets/images/son01.jpg", name: "assets/images/son01.jpg", widget: image}
-          - {label: "assets/images/son02.jpg", name: "assets/images/son02.jpg", widget: image}
-          - {label: "assets/images/son03.jpg", name: "assets/images/son03.jpg", widget: image}
-          - {label: "assets/images/son04.jpg", name: "assets/images/son04.jpg", widget: image}
-          - {label: "assets/images/son05.jpg", name: "assets/images/son05.jpg", widget: image}
-          - {label: "assets/images/son06.jpg", name: "assets/images/son06.jpg", widget: image}
-          - {label: "assets/images/stena01.jpg", name: "assets/images/stena01.jpg", widget: image}
-          - {label: "assets/images/stena02.jpg", name: "assets/images/stena02.jpg", widget: image}
-          - {label: "assets/images/stena03.jpg", name: "assets/images/stena03.jpg", widget: image}
-          - {label: "assets/images/stena04.jpg", name: "assets/images/stena04.jpg", widget: image}
-          - {label: "assets/images/stena05.jpg", name: "assets/images/stena05.jpg", widget: image}
-          - {label: "assets/images/stena06.jpg", name: "assets/images/stena06.jpg", widget: image}
-          - {label: "assets/images/team1.jpg", name: "assets/images/team1.jpg", widget: image}
-          - {label: "assets/images/team2.jpg", name: "assets/images/team2.jpg", widget: image}
-          - {label: "assets/images/team3.jpg", name: "assets/images/team3.jpg", widget: image}
-          - {label: "assets/images/team4.jpg", name: "assets/images/team4.jpg", widget: image}
-          - {label: "assets/images/team5.jpg", name: "assets/images/team5.jpg", widget: image}
-          - {label: "assets/images/team6.jpg", name: "assets/images/team6.jpg", widget: image}
-          - {label: "assets/images/voxa01.jpg", name: "assets/images/voxa01.jpg", widget: image}
-          - {label: "assets/images/voxa02.jpg", name: "assets/images/voxa02.jpg", widget: image}
-          - {label: "assets/images/voxa03.jpg", name: "assets/images/voxa03.jpg", widget: image}
-          - {label: "assets/images/vxlab01.jpg", name: "assets/images/vxlab01.jpg", widget: image}
-          - {label: "assets/images/vxlab02.jpg", name: "assets/images/vxlab02.jpg", widget: image}
-          - {label: "assets/images/vxlab03.jpg", name: "assets/images/vxlab03.jpg", widget: image}
-          - {label: "assets/images/vxlab04.jpg", name: "assets/images/vxlab04.jpg", widget: image}
+          - {label: "assets/images/01hero.jpg", name: "assets-images-01hero-jpg", widget: image}
+          - {label: "assets/images/01hero1.jpg", name: "assets-images-01hero1-jpg", widget: image}
+          - {label: "assets/images/02hero.jpg", name: "assets-images-02hero-jpg", widget: image}
+          - {label: "assets/images/02hero1.jpg", name: "assets-images-02hero1-jpg", widget: image}
+          - {label: "assets/images/03hero.jpg", name: "assets-images-03hero-jpg", widget: image}
+          - {label: "assets/images/04hero.jpg", name: "assets-images-04hero-jpg", widget: image}
+          - {label: "assets/images/04hero.mp4", name: "assets-images-04hero-mp4", widget: file, required: false}
+          - {label: "assets/images/05hero.jpg", name: "assets-images-05hero-jpg", widget: image}
+          - {label: "assets/images/06hero.jpg", name: "assets-images-06hero-jpg", widget: image}
+          - {label: "assets/images/07hero.jpg", name: "assets-images-07hero-jpg", widget: image}
+          - {label: "assets/images/08hero.jpg", name: "assets-images-08hero-jpg", widget: image}
+          - {label: "assets/images/about.jpg", name: "assets-images-about-jpg", widget: image}
+          - {label: "assets/images/chair01.jpg", name: "assets-images-chair01-jpg", widget: image}
+          - {label: "assets/images/chair02.jpg", name: "assets-images-chair02-jpg", widget: image}
+          - {label: "assets/images/chair03.jpg", name: "assets-images-chair03-jpg", widget: image}
+          - {label: "assets/images/displacement/aqua-light.jpg", name: "assets-images-displacement-aqua-light-jpg", widget: image}
+          - {label: "assets/images/eyes.png", name: "assets-images-eyes-png", widget: image}
+          - {label: "assets/images/image01.jpg", name: "assets-images-image01-jpg", widget: image}
+          - {label: "assets/images/image02.jpg", name: "assets-images-image02-jpg", widget: image}
+          - {label: "assets/images/image03.jpg", name: "assets-images-image03-jpg", widget: image}
+          - {label: "assets/images/image04.jpg", name: "assets-images-image04-jpg", widget: image}
+          - {label: "assets/images/intro.mp4", name: "assets-images-intro-mp4", widget: file, required: false}
+          - {label: "assets/images/kivira01.jpg", name: "assets-images-kivira01-jpg", widget: image}
+          - {label: "assets/images/kivira02.jpg", name: "assets-images-kivira02-jpg", widget: image}
+          - {label: "assets/images/kivira03.jpg", name: "assets-images-kivira03-jpg", widget: image}
+          - {label: "assets/images/logo.png", name: "assets-images-logo-png", widget: image}
+          - {label: "assets/images/logo-white.png", name: "assets-images-logo-white-png", widget: image}
+          - {label: "assets/images/nanotech01.jpg", name: "assets-images-nanotech01-jpg", widget: image}
+          - {label: "assets/images/nanotech02.jpg", name: "assets-images-nanotech02-jpg", widget: image}
+          - {label: "assets/images/nanotech03.jpg", name: "assets-images-nanotech03-jpg", widget: image}
+          - {label: "assets/images/parallax.jpg", name: "assets-images-parallax-jpg", widget: image}
+          - {label: "assets/images/pinned01.jpg", name: "assets-images-pinned01-jpg", widget: image}
+          - {label: "assets/images/pinned02.jpg", name: "assets-images-pinned02-jpg", widget: image}
+          - {label: "assets/images/shortcodes/image01.jpg", name: "assets-images-shortcodes-image01-jpg", widget: image}
+          - {label: "assets/images/shortcodes/pinned01.jpg", name: "assets-images-shortcodes-pinned01-jpg", widget: image}
+          - {label: "assets/images/son01.jpg", name: "assets-images-son01-jpg", widget: image}
+          - {label: "assets/images/son02.jpg", name: "assets-images-son02-jpg", widget: image}
+          - {label: "assets/images/son03.jpg", name: "assets-images-son03-jpg", widget: image}
+          - {label: "assets/images/son04.jpg", name: "assets-images-son04-jpg", widget: image}
+          - {label: "assets/images/son05.jpg", name: "assets-images-son05-jpg", widget: image}
+          - {label: "assets/images/son06.jpg", name: "assets-images-son06-jpg", widget: image}
+          - {label: "assets/images/stena01.jpg", name: "assets-images-stena01-jpg", widget: image}
+          - {label: "assets/images/stena02.jpg", name: "assets-images-stena02-jpg", widget: image}
+          - {label: "assets/images/stena03.jpg", name: "assets-images-stena03-jpg", widget: image}
+          - {label: "assets/images/stena04.jpg", name: "assets-images-stena04-jpg", widget: image}
+          - {label: "assets/images/stena05.jpg", name: "assets-images-stena05-jpg", widget: image}
+          - {label: "assets/images/stena06.jpg", name: "assets-images-stena06-jpg", widget: image}
+          - {label: "assets/images/team1.jpg", name: "assets-images-team1-jpg", widget: image}
+          - {label: "assets/images/team2.jpg", name: "assets-images-team2-jpg", widget: image}
+          - {label: "assets/images/team3.jpg", name: "assets-images-team3-jpg", widget: image}
+          - {label: "assets/images/team4.jpg", name: "assets-images-team4-jpg", widget: image}
+          - {label: "assets/images/team5.jpg", name: "assets-images-team5-jpg", widget: image}
+          - {label: "assets/images/team6.jpg", name: "assets-images-team6-jpg", widget: image}
+          - {label: "assets/images/voxa01.jpg", name: "assets-images-voxa01-jpg", widget: image}
+          - {label: "assets/images/voxa02.jpg", name: "assets-images-voxa02-jpg", widget: image}
+          - {label: "assets/images/voxa03.jpg", name: "assets-images-voxa03-jpg", widget: image}
+          - {label: "assets/images/vxlab01.jpg", name: "assets-images-vxlab01-jpg", widget: image}
+          - {label: "assets/images/vxlab02.jpg", name: "assets-images-vxlab02-jpg", widget: image}
+          - {label: "assets/images/vxlab03.jpg", name: "assets-images-vxlab03-jpg", widget: image}
+          - {label: "assets/images/vxlab04.jpg", name: "assets-images-vxlab04-jpg", widget: image}
   - name: pages
     label: Pages
     files:
-      - name: 404
+      - name: "404"
         label: 404 Page
         file: content/404.json
         fields:

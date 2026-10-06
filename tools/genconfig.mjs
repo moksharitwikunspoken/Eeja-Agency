@@ -101,7 +101,7 @@ for (const f of pageFiles) {
   const name = f.replace(/\.json$/, '');
   const obj = load(`content/${f}`);
   if (!Object.keys(obj).length) continue;
-  lines.push(`      - name: ${name}`);
+  lines.push(`      - name: ${/^\d+$/.test(name) ? `"${name}"` : name}`);
   lines.push(`        label: ${pageLabel[name] || name}`);
   lines.push(`        file: content/${f}`);
   lines.push('        fields:');
@@ -121,7 +121,7 @@ for (const f of detailFiles) {
   if (!Object.keys(obj).length) continue;
   const slug = name.replace(/^portfolio-/, '');
   const proj = (load('content/projects.json').projects || []).find((p) => p.slug === slug);
-  lines.push(`      - name: ${name}`);
+  lines.push(`      - name: ${/^\d+$/.test(name) ? `"${name}"` : name}`);
   lines.push(`        label: ${proj ? proj.title : slug}`);
   lines.push(`        file: content/${f}`);
   lines.push('        fields:');
