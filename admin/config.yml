@@ -1,0 +1,443 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: moksharitwikunspoken/Eeja-Agency
+
+media_folder: assets/images/uploads
+public_folder: /assets/images/uploads
+
+collections:
+  - name: site
+    label: Site Settings (logo, menu, footer)
+    files:
+      - name: general
+        label: General text
+        file: content/site.json
+        fields:
+          - {label: "35 M Str, New York, USA", name: "35-m-str-new-york-usa", widget: string}
+          - {label: "Address", name: "address", widget: string}
+          - {label: "Agency", name: "agency", widget: string}
+          - {label: ". All rights reserved.", name: "all-rights-reserved", widget: string}
+          - {label: "archive", name: "archive", widget: string}
+          - {label: "Back Top", name: "back-top", widget: string}
+          - {label: "Be", name: "be", widget: string}
+          - {label: "branding", name: "branding-2", widget: string}
+          - {label: "ClaPat", name: "clapat", widget: string}
+          - {label: "contact", name: "contact", widget: string}
+          - {label: "Content", name: "content", widget: string}
+          - {label: "Creative", name: "creative", widget: string}
+          - {label: "Db", name: "db", widget: string}
+          - {label: "development", name: "development-2", widget: string}
+          - {label: "Elements", name: "elements", widget: string}
+          - {label: "Fb", name: "fb", widget: string}
+          - {label: "Follow Us", name: "follow-us", widget: string}
+          - {label: "Go Ahead", name: "go-ahead", widget: string}
+          - {label: "GO TO", name: "go-to", widget: string}
+          - {label: "Highlights", name: "highlights", widget: string}
+          - {label: "Image Title", name: "image-title", widget: string}
+          - {label: "In", name: "in", widget: string}
+          - {label: "Index", name: "index", widget: string}
+          - {label: "Keep Scrolling", name: "keep-scrolling", widget: string}
+          - {label: "Let&#039;s Talk", name: "lets-talk", widget: string}
+          - {label: "Loading", name: "loading", widget: string}
+          - {label: "Logo Black", name: "logo-black", widget: string}
+          - {label: "Logo White", name: "logo-white", widget: string}
+          - {label: "marketing", name: "marketing", widget: string}
+          - {label: "media", name: "media", widget: string}
+          - {label: "Menu", name: "menu", widget: string}
+          - {label: "motion", name: "motion", widget: string}
+          - {label: "Next", name: "next", widget: string}
+          - {label: "Next Page", name: "next-page", widget: string}
+          - {label: "Phone", name: "phone", widget: string}
+          - {label: "Playground", name: "playground", widget: string}
+          - {label: "Portfolio", name: "portfolio", widget: string}
+          - {label: "Prev", name: "prev", widget: string}
+          - {label: "Project", name: "project", widget: string}
+          - {label: "Projects", name: "projects", widget: string}
+          - {label: "Resources", name: "resources", widget: string}
+          - {label: "Scroll To Explore", name: "scroll-to-explore", widget: string}
+          - {label: "Scroll to Explore", name: "scroll-to-explore-2", widget: string}
+          - {label: "Showcasing creativity", name: "showcasing-creativity", widget: string}
+          - {label: "studio", name: "studio", widget: string}
+          - {label: "These images are credited to the following au...", name: "these-images-are-credited-to-the-followi", widget: string}
+          - {label: "Through outstanding project design", name: "through-outstanding-project-design", widget: string}
+          - {label: "Tw", name: "tw", widget: string}
+          - {label: "Video Production", name: "video-production", widget: string}
+          - {label: "View Project", name: "view-project", widget: string}
+          - {label: "wait, wait...", name: "wait-wait", widget: string}
+          - {label: "web design", name: "web-design-2", widget: string}
+          - {label: "Zoom Gallery", name: "zoom-gallery", widget: string}
+      - name: images
+        label: Images and videos
+        file: content/images.json
+        fields:
+          - {label: "assets/images/01hero.jpg", name: "assets/images/01hero.jpg", widget: image}
+          - {label: "assets/images/01hero1.jpg", name: "assets/images/01hero1.jpg", widget: image}
+          - {label: "assets/images/02hero.jpg", name: "assets/images/02hero.jpg", widget: image}
+          - {label: "assets/images/02hero1.jpg", name: "assets/images/02hero1.jpg", widget: image}
+          - {label: "assets/images/03hero.jpg", name: "assets/images/03hero.jpg", widget: image}
+          - {label: "assets/images/04hero.jpg", name: "assets/images/04hero.jpg", widget: image}
+          - {label: "assets/images/04hero.mp4", name: "assets/images/04hero.mp4", widget: file, required: false}
+          - {label: "assets/images/05hero.jpg", name: "assets/images/05hero.jpg", widget: image}
+          - {label: "assets/images/06hero.jpg", name: "assets/images/06hero.jpg", widget: image}
+          - {label: "assets/images/07hero.jpg", name: "assets/images/07hero.jpg", widget: image}
+          - {label: "assets/images/08hero.jpg", name: "assets/images/08hero.jpg", widget: image}
+          - {label: "assets/images/about.jpg", name: "assets/images/about.jpg", widget: image}
+          - {label: "assets/images/chair01.jpg", name: "assets/images/chair01.jpg", widget: image}
+          - {label: "assets/images/chair02.jpg", name: "assets/images/chair02.jpg", widget: image}
+          - {label: "assets/images/chair03.jpg", name: "assets/images/chair03.jpg", widget: image}
+          - {label: "assets/images/displacement/aqua-light.jpg", name: "assets/images/displacement/aqua-light.jpg", widget: image}
+          - {label: "assets/images/eyes.png", name: "assets/images/eyes.png", widget: image}
+          - {label: "assets/images/image01.jpg", name: "assets/images/image01.jpg", widget: image}
+          - {label: "assets/images/image02.jpg", name: "assets/images/image02.jpg", widget: image}
+          - {label: "assets/images/image03.jpg", name: "assets/images/image03.jpg", widget: image}
+          - {label: "assets/images/image04.jpg", name: "assets/images/image04.jpg", widget: image}
+          - {label: "assets/images/intro.mp4", name: "assets/images/intro.mp4", widget: file, required: false}
+          - {label: "assets/images/kivira01.jpg", name: "assets/images/kivira01.jpg", widget: image}
+          - {label: "assets/images/kivira02.jpg", name: "assets/images/kivira02.jpg", widget: image}
+          - {label: "assets/images/kivira03.jpg", name: "assets/images/kivira03.jpg", widget: image}
+          - {label: "assets/images/logo-white.png", name: "assets/images/logo-white.png", widget: image}
+          - {label: "assets/images/logo.png", name: "assets/images/logo.png", widget: image}
+          - {label: "assets/images/nanotech01.jpg", name: "assets/images/nanotech01.jpg", widget: image}
+          - {label: "assets/images/nanotech02.jpg", name: "assets/images/nanotech02.jpg", widget: image}
+          - {label: "assets/images/nanotech03.jpg", name: "assets/images/nanotech03.jpg", widget: image}
+          - {label: "assets/images/parallax.jpg", name: "assets/images/parallax.jpg", widget: image}
+          - {label: "assets/images/pinned01.jpg", name: "assets/images/pinned01.jpg", widget: image}
+          - {label: "assets/images/pinned02.jpg", name: "assets/images/pinned02.jpg", widget: image}
+          - {label: "assets/images/shortcodes/image01.jpg", name: "assets/images/shortcodes/image01.jpg", widget: image}
+          - {label: "assets/images/shortcodes/pinned01.jpg", name: "assets/images/shortcodes/pinned01.jpg", widget: image}
+          - {label: "assets/images/son01.jpg", name: "assets/images/son01.jpg", widget: image}
+          - {label: "assets/images/son02.jpg", name: "assets/images/son02.jpg", widget: image}
+          - {label: "assets/images/son03.jpg", name: "assets/images/son03.jpg", widget: image}
+          - {label: "assets/images/son04.jpg", name: "assets/images/son04.jpg", widget: image}
+          - {label: "assets/images/son05.jpg", name: "assets/images/son05.jpg", widget: image}
+          - {label: "assets/images/son06.jpg", name: "assets/images/son06.jpg", widget: image}
+          - {label: "assets/images/stena01.jpg", name: "assets/images/stena01.jpg", widget: image}
+          - {label: "assets/images/stena02.jpg", name: "assets/images/stena02.jpg", widget: image}
+          - {label: "assets/images/stena03.jpg", name: "assets/images/stena03.jpg", widget: image}
+          - {label: "assets/images/stena04.jpg", name: "assets/images/stena04.jpg", widget: image}
+          - {label: "assets/images/stena05.jpg", name: "assets/images/stena05.jpg", widget: image}
+          - {label: "assets/images/stena06.jpg", name: "assets/images/stena06.jpg", widget: image}
+          - {label: "assets/images/team1.jpg", name: "assets/images/team1.jpg", widget: image}
+          - {label: "assets/images/team2.jpg", name: "assets/images/team2.jpg", widget: image}
+          - {label: "assets/images/team3.jpg", name: "assets/images/team3.jpg", widget: image}
+          - {label: "assets/images/team4.jpg", name: "assets/images/team4.jpg", widget: image}
+          - {label: "assets/images/team5.jpg", name: "assets/images/team5.jpg", widget: image}
+          - {label: "assets/images/team6.jpg", name: "assets/images/team6.jpg", widget: image}
+          - {label: "assets/images/voxa01.jpg", name: "assets/images/voxa01.jpg", widget: image}
+          - {label: "assets/images/voxa02.jpg", name: "assets/images/voxa02.jpg", widget: image}
+          - {label: "assets/images/voxa03.jpg", name: "assets/images/voxa03.jpg", widget: image}
+          - {label: "assets/images/vxlab01.jpg", name: "assets/images/vxlab01.jpg", widget: image}
+          - {label: "assets/images/vxlab02.jpg", name: "assets/images/vxlab02.jpg", widget: image}
+          - {label: "assets/images/vxlab03.jpg", name: "assets/images/vxlab03.jpg", widget: image}
+          - {label: "assets/images/vxlab04.jpg", name: "assets/images/vxlab04.jpg", widget: image}
+  - name: pages
+    label: Pages
+    files:
+      - name: 404
+        label: 404 Page
+        file: content/404.json
+        fields:
+          - {label: "Go Back", name: "go-back", widget: string}
+          - {label: "Home Page", name: "home-page", widget: string}
+          - {label: "Page not found &#8211; Bennet &#8211; Creativ...", name: "page-not-found-bennet-creative-portfolio", widget: string}
+          - {label: "The page you are looking for could not be found.", name: "the-page-you-are-looking-for-could-not-b", widget: string}
+      - name: agency
+        label: Agency Page
+        file: content/agency.json
+        fields:
+          - {label: "Agency &#8211; Bennet &#8211; Creative Portfo...", name: "agency-bennet-creative-portfolio-theme", widget: string}
+          - {label: "Apply", name: "apply", widget: string}
+          - {label: "Awards Received", name: "awards-received", widget: string}
+          - {label: "Awwwards", name: "awwwards", widget: string}
+          - {label: "Behance", name: "behance", widget: string}
+          - {label: "Charlotte", name: "charlotte", widget: string}
+          - {label: "Co-Founder", name: "co-founder", widget: string}
+          - {label: "creating memorable experience", name: "creating-memorable-experience", widget: string}
+          - {label: "CSS Design Awards", name: "css-design-awards", widget: string}
+          - {label: "CSS Light", name: "css-light", widget: string}
+          - {label: "CSS Winner", name: "css-winner", widget: string}
+          - {label: "Design with purpose", name: "design-with-purpose", widget: string}
+          - {label: "Developer Award, Site of the Day, Honorable M...", name: "developer-award-site-of-the-day-honorabl", widget: string}
+          - {label: "Digital Studio Agency", name: "digital-studio-agency", widget: string}
+          - {label: "Doe", name: "doe", widget: string}
+          - {label: "Dunn", name: "dunn", widget: string}
+          - {label: "Emma", name: "emma", widget: string}
+          - {label: "Featured UX/UI and XD Design", name: "featured-ux-ui-and-xd-design", widget: string}
+          - {label: "Featured Website", name: "featured-website", widget: string}
+          - {label: "Featured Website, Featured Design", name: "featured-website-featured-design", widget: string}
+          - {label: "FWA Awards", name: "fwa-awards", widget: string}
+          - {label: "FWA of the day, FWA of the month", name: "fwa-of-the-day-fwa-of-the-month", widget: string}
+          - {label: "Hallo", name: "hallo", widget: string}
+          - {label: "Hannah", name: "hannah", widget: string}
+          - {label: "Hello", name: "hello", widget: string}
+          - {label: "Holla", name: "holla", widget: string}
+          - {label: "John", name: "john", widget: string}
+          - {label: "Join our team", name: "join-our-team", widget: string}
+          - {label: "Lucas", name: "lucas", widget: string}
+          - {label: "Müller", name: "m-ller", widget: string}
+          - {label: "Mark", name: "mark", widget: string}
+          - {label: "Martin", name: "martin", widget: string}
+          - {label: "One Page Love", name: "one-page-love", widget: string}
+          - {label: "Our Short Story", name: "our-short-story", widget: string}
+          - {label: "Recognitions", name: "recognitions", widget: string}
+          - {label: "Salut", name: "salut", widget: string}
+          - {label: "SEO Specialist", name: "seo-specialist", widget: string}
+          - {label: "Site Inspire", name: "site-inspire", widget: string}
+          - {label: "Site of the Day", name: "site-of-the-day", widget: string}
+          - {label: "Site of the Day, Special Mention", name: "site-of-the-day-special-mention", widget: string}
+          - {label: "SiteInspire", name: "siteinspire", widget: string}
+          - {label: "Smith", name: "smith", widget: string}
+          - {label: "Solutions for businesses", name: "solutions-for-businesses", widget: string}
+          - {label: "&lt;span&gt;Charlotte&lt;/span&gt; &lt;span&g...", name: "spancharlotte-span-spandunn-span", widget: string}
+          - {label: "&lt;span&gt;Emma&lt;/span&gt; &lt;span&gt;Mül...", name: "spanemma-span-spanm-ller-span", widget: string}
+          - {label: "&lt;span&gt;Hannah&lt;/span&gt; &lt;span&gt;S...", name: "spanhannah-span-spansmith-span", widget: string}
+          - {label: "&lt;span&gt;John&lt;/span&gt; &lt;span&gt;Doe...", name: "spanjohn-span-spandoe-span", widget: string}
+          - {label: "&lt;span&gt;Lucas&lt;/span&gt; &lt;span&gt;Ma...", name: "spanlucas-span-spanmartin-span", widget: string}
+          - {label: "&lt;span&gt;Mark&lt;/span&gt; &lt;span&gt;Spe...", name: "spanmark-span-spanspencer-span", widget: string}
+          - {label: "Spencer", name: "spencer", widget: string}
+          - {label: "The Job Title.", name: "the-job-title", widget: string}
+          - {label: "We are Bennet", name: "we-are-bennet", widget: string}
+          - {label: "We are passionate about", name: "we-are-passionate-about", widget: string}
+          - {label: "We bring ideas to life", name: "we-bring-ideas-to-life", widget: string}
+          - {label: "Web Designer", name: "web-designer", widget: string}
+          - {label: "Web Developer", name: "web-developer", widget: string}
+          - {label: "Website of the Day, Special Kudos", name: "website-of-the-day-special-kudos", widget: string}
+          - {label: "x04 Awards", name: "x04-awards", widget: string}
+          - {label: "x06 Awards", name: "x06-awards", widget: string}
+          - {label: "x08 Awards", name: "x08-awards", widget: string}
+          - {label: "x10 Awards", name: "x10-awards", widget: string}
+          - {label: "x12 Awards", name: "x12-awards", widget: string}
+          - {label: "You need it? We do it", name: "you-need-it-we-do-it", widget: string}
+          - {label: "Your brand reimagined", name: "your-brand-reimagined", widget: string}
+      - name: contact
+        label: Contact Page
+        file: content/contact.json
+        fields:
+          - {label: "Contact &#8211; Bennet &#8211; Creative Portf...", name: "contact-bennet-creative-portfolio-theme", widget: string}
+          - {label: "Don't let your vision wait", name: "don-t-let-your-vision-wait", widget: string}
+          - {label: "Let's bring it to life", name: "let-s-bring-it-to-life", widget: string}
+          - {label: "Let's Talk", name: "let-s-talk", widget: string}
+          - {label: "office@bennet.com", name: "office-bennet-com", widget: string}
+          - {label: "Reach Out", name: "reach-out", widget: string}
+          - {label: "Ready to work together?", name: "ready-to-work-together", widget: string}
+          - {label: "Say Hello", name: "say-hello", widget: string}
+          - {label: "Tell Us About Your Project", name: "tell-us-about-your-project", widget: string}
+          - {label: "What&#039;s Your Name", name: "whats-your-name", widget: string}
+          - {label: "Your E-mail", name: "your-e-mail", widget: string}
+      - name: highlights
+        label: Highlights Page
+        file: content/highlights.json
+        fields:
+          - {label: "Highlights &#8211; Bennet &#8211; Creative Po...", name: "highlights-bennet-creative-portfolio-the", widget: string}
+          - {label: "Scroll or Drag", name: "scroll-or-drag", widget: string}
+      - name: index
+        label: Home Page
+        file: content/index.json
+        fields:
+          - {label: "agency", name: "agency-2", widget: string}
+          - {label: "bennet", name: "bennet", widget: string}
+          - {label: "Bennet &#8211; Creative Portfolio Theme", name: "bennet-creative-portfolio-theme", widget: string}
+          - {label: "Bringing brands to life through", name: "bringing-brands-to-life-through", widget: string}
+          - {label: "Crafting exceptional websites tailored to you...", name: "crafting-exceptional-websites-tailored-t", widget: text}
+          - {label: "creative", name: "creative-2", widget: string}
+          - {label: "creative web solutions", name: "creative-web-solutions", widget: string}
+          - {label: "digital", name: "digital", widget: string}
+          - {label: "Est. 2025", name: "est-2025", widget: string}
+          - {label: "Featured Projects", name: "featured-projects", widget: string}
+          - {label: "Read More", name: "read-more", widget: string}
+          - {label: "visionary", name: "visionary", widget: string}
+          - {label: "We’re", name: "we-re", widget: string}
+          - {label: "Welcome", name: "welcome", widget: string}
+      - name: multimedia
+        label: Multimedia Page
+        file: content/multimedia.json
+        fields:
+          - {label: "as you scroll, offering an immersive browsing...", name: "as-you-scroll-offering-an-immersive-brow", widget: string}
+          - {label: "autocentering on click event.", name: "autocentering-on-click-event", widget: string}
+          - {label: "Choose between large or small size and select...", name: "choose-between-large-or-small-size-and-s", widget: string}
+          - {label: "Content Slider", name: "content-slider", widget: string}
+          - {label: "Create a stack of sticky images that remain f...", name: "create-a-stack-of-sticky-images-that-rem", widget: string}
+          - {label: "Create captivating sticky elements that remai...", name: "create-captivating-sticky-elements-that", widget: string}
+          - {label: "Create dynamic horizontal galleries that seam...", name: "create-dynamic-horizontal-galleries-that", widget: string}
+          - {label: "Display Widgets", name: "display-widgets", widget: string}
+          - {label: "for the cursor circle on hover.", name: "for-the-cursor-circle-on-hover", widget: string}
+          - {label: "Horizontal Moving Galleries", name: "horizontal-moving-galleries", widget: string}
+          - {label: "Looped Carousel", name: "looped-carousel", widget: string}
+          - {label: "Multimedia &#8211; Bennet &#8211; Creative Po...", name: "multimedia-bennet-creative-portfolio-the", widget: string}
+          - {label: "on the left or right side of an image as you ...", name: "on-the-left-or-right-side-of-an-image-as", widget: string}
+          - {label: "Parallax image or video", name: "parallax-image-or-video", widget: string}
+          - {label: "Pinned Gallery", name: "pinned-gallery", widget: string}
+          - {label: "Pinned Section", name: "pinned-section", widget: string}
+          - {label: "Reveal Gallery", name: "reveal-gallery", widget: string}
+          - {label: "Reveal multiple image instances making it eff...", name: "reveal-multiple-image-instances-making-i", widget: string}
+          - {label: "Select the color for the cursor on hover and ...", name: "select-the-color-for-the-cursor-on-hover", widget: string}
+          - {label: "Simply define your images and specify which i...", name: "simply-define-your-images-and-specify-wh", widget: string}
+          - {label: "snippets", name: "snippets", widget: string}
+          - {label: "to compare them side by side", name: "to-compare-them-side-by-side", widget: string}
+          - {label: "Transform your content", name: "transform-your-content", widget: string}
+          - {label: "with content overlay", name: "with-content-overlay", widget: string}
+          - {label: "with dynamic media solutions", name: "with-dynamic-media-solutions", widget: string}
+          - {label: "you scroll through all of them.", name: "you-scroll-through-all-of-them", widget: string}
+          - {label: "you want to zoom in fullscreen.", name: "you-want-to-zoom-in-fullscreen", widget: string}
+      - name: playground
+        label: Playground Page
+        file: content/playground.json
+        fields:
+          - {label: "Grid", name: "grid", widget: string}
+          - {label: "List", name: "list", widget: string}
+          - {label: "Playground &#8211; Bennet &#8211; Creative Po...", name: "playground-bennet-creative-portfolio-the", widget: string}
+      - name: portfolio
+        label: Portfolio Page
+        file: content/portfolio.json
+        fields:
+          - {label: "All Projects", name: "all-projects", widget: string}
+          - {label: "all projects", name: "all-projects-2", widget: string}
+          - {label: "Branding", name: "branding", widget: string}
+          - {label: "Designing digital experiences that", name: "designing-digital-experiences-that", widget: string}
+          - {label: "Designs", name: "designs", widget: string}
+          - {label: "Graphic Desin", name: "graphic-desin", widget: string}
+          - {label: "leave a lasting impression", name: "leave-a-lasting-impression", widget: string}
+          - {label: "Photo", name: "photo", widget: string}
+          - {label: "Photography", name: "photography", widget: string}
+          - {label: "Portfolio &#8211; Bennet &#8211; Creative Por...", name: "portfolio-bennet-creative-portfolio-them", widget: string}
+          - {label: "Product Design", name: "product-design", widget: string}
+          - {label: "projects", name: "projects-2", widget: string}
+          - {label: "Web Design", name: "web-design", widget: string}
+      - name: typography
+        label: Typography Page
+        file: content/typography.json
+        fields:
+          - {label: "Anchor Links", name: "anchor-links", widget: string}
+          - {label: "before and after your text in a", name: "before-and-after-your-text-in-a", widget: string}
+          - {label: "Bold headings and subtle details", name: "bold-headings-and-subtle-details", widget: string}
+          - {label: "Button Text", name: "button-text", widget: string}
+          - {label: "Buttons", name: "buttons", widget: string}
+          - {label: "can help bring important information immediat...", name: "can-help-bring-important-information-imm", widget: text}
+          - {label: "ClaPat website", name: "clapat-website", widget: string}
+          - {label: "Code", name: "code", widget: string}
+          - {label: "convey your content", name: "convey-your-content", widget: string}
+          - {label: "Featured ELements", name: "featured-elements", widget: string}
+          - {label: "floating image", name: "floating-image", widget: string}
+          - {label: "Floating Images", name: "floating-images", widget: string}
+          - {label: "Heading 1", name: "heading-1", widget: string}
+          - {label: "Heading 2", name: "heading-2", widget: string}
+          - {label: "Heading 3", name: "heading-3", widget: string}
+          - {label: "Heading 4", name: "heading-4", widget: string}
+          - {label: "Heading 5", name: "heading-5", widget: string}
+          - {label: "Heading 6", name: "heading-6", widget: string}
+          - {label: "Highlighting", name: "highlighting", widget: string}
+          - {label: "Highlighting text", name: "highlighting-text", widget: string}
+          - {label: "https://clapat.com", name: "https-clapat-com", widget: string}
+          - {label: "If you paste in a URL, like", name: "if-you-paste-in-a-url-like", widget: string}
+          - {label: "&#8211; it&#8217;ll automatically be linked u...", name: "itll-automatically-be-linked-up-but-if-y", widget: text}
+          - {label: "many times", name: "many-times", widget: string}
+          - {label: "Markdown card", name: "markdown-card", widget: string}
+          - {label: ".my-element { display: block; width: 100%; }", name: "my-element-display-block-width-100", widget: text}
+          - {label: "Primary Headings", name: "primary-headings", widget: string}
+          - {label: "Sticky Button", name: "sticky-button", widget: string}
+          - {label: "Text Identation", name: "text-identation", widget: string}
+          - {label: "This is a text with a", name: "this-is-a-text-with-a", widget: string}
+          - {label: "Typography &#8211; Bennet &#8211; Creative Po...", name: "typography-bennet-creative-portfolio-the", widget: string}
+          - {label: "typos", name: "typos", widget: string}
+          - {label: "which you can use as", name: "which-you-can-use-as", widget: string}
+          - {label: "You don't see this Visual style as much in we...", name: "you-don-t-see-this-visual-style-as-much", widget: string}
+          - {label: "You don&#8217;t see this visual style as much...", name: "you-dont-see-this-visual-style-as-much-i", widget: text}
+          - {label: "you want in each paragraph.", name: "you-want-in-each-paragraph", widget: string}
+  - name: project_pages
+    label: Project detail pages
+    files:
+      - name: portfolio-kivira-naturals
+        label: Kivira Naturals
+        file: content/portfolio-kivira-naturals.json
+        fields:
+          - {label: "Create captivating sticky elements that remai...", name: "create-captivating-sticky-elements-tha-2", widget: text}
+          - {label: "Sticky Left", name: "sticky-left", widget: string}
+          - {label: "Sticky Right", name: "sticky-right", widget: string}
+      - name: portfolio-nanotech-agency
+        label: Nanotech Agency
+        file: content/portfolio-nanotech-agency.json
+        fields:
+          - {label: "Blending form with function", name: "blending-form-with-function", widget: string}
+          - {label: "Building websites", name: "building-websites", widget: string}
+          - {label: "Crafting clean layouts", name: "crafting-clean-layouts", widget: string}
+          - {label: "Designing intuitive interfaces", name: "designing-intuitive-interfaces", widget: string}
+          - {label: "Enhancing user experiences", name: "enhancing-user-experiences", widget: string}
+          - {label: "Optimizing for all devices", name: "optimizing-for-all-devices", widget: string}
+      - name: portfolio-son-of-a-tailor
+        label: Son of a Tailor
+        file: content/portfolio-son-of-a-tailor.json
+        fields:
+          - {label: "Dynamic", name: "dynamic", widget: string}
+          - {label: "Interactive", name: "interactive", widget: string}
+          - {label: "Minimalist", name: "minimalist", widget: string}
+          - {label: "Responsive", name: "responsive", widget: string}
+      - name: portfolio-stena-air
+        label: Stena Air
+        file: content/portfolio-stena-air.json
+        fields:
+          - {label: "Innovation in every detail", name: "innovation-in-every-detail", widget: string}
+      - name: portfolio-the-infin
+        label: Lounge Chair
+        file: content/portfolio-the-infin.json
+        fields:
+          - {label: "a lasting", name: "a-lasting", widget: string}
+          - {label: "Design Details", name: "design-details", widget: string}
+          - {label: "impression", name: "impression", widget: string}
+          - {label: "leave", name: "leave", widget: string}
+          - {label: "Visuals that", name: "visuals-that", widget: string}
+      - name: portfolio-the-invincibles
+        label: The Invincibles
+        file: content/portfolio-the-invincibles.json
+        fields:
+          - {label: "Color Grading", name: "color-grading", widget: string}
+          - {label: "Costume Design", name: "costume-design", widget: string}
+          - {label: "Development", name: "development", widget: string}
+          - {label: "Explore the possibilities and unleash your cr...", name: "explore-the-possibilities-and-unleash-yo", widget: text}
+          - {label: "Mute/Unmute sound", name: "mute-unmute-sound", widget: string}
+          - {label: "Switch to full screen", name: "switch-to-full-screen", widget: string}
+          - {label: "VFX Effects", name: "vfx-effects", widget: string}
+      - name: portfolio-voxa-speaker
+        label: Voxa Speaker
+        file: content/portfolio-voxa-speaker.json
+        fields:
+          - {label: "Credits", name: "credits", widget: string}
+          - {label: "Simply define your images, specify the image ...", name: "simply-define-your-images-specify-the-im", widget: string}
+          - {label: "Zoom In Again", name: "zoom-in-again", widget: string}
+          - {label: "zoom in on and set the desired repeat behavior.", name: "zoom-in-on-and-set-the-desired-repeat-be", widget: string}
+      - name: portfolio-vx-lab
+        label: VFX Lab
+        file: content/portfolio-vx-lab.json
+        fields:
+          - {label: "and timelless", name: "and-timelless", widget: string}
+          - {label: "beauty of", name: "beauty-of", widget: string}
+          - {label: "elegance", name: "elegance", widget: string}
+          - {label: "Explore the", name: "explore-the", widget: string}
+          - {label: "innovative design", name: "innovative-design", widget: string}
+  - name: projects
+    label: Projects (cards + detail hero)
+    files:
+      - name: all
+        label: All projects
+        file: content/projects.json
+        fields:
+          - label: Projects
+            name: projects
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "slug", name: "slug", widget: hidden}
+              - {label: "title", name: "title", widget: string}
+              - {label: "category", name: "category", widget: string}
+              - {label: "category_class", name: "category_class", widget: hidden}
+              - {label: "year", name: "year", widget: string}
+              - {label: "hero", name: "hero", widget: image}
+              - {label: "thumb", name: "thumb", widget: image}
+              - {label: "featured", name: "featured", widget: boolean}
+              - {label: "slide_inner_class", name: "slide_inner_class", widget: hidden}
+              - {label: "projectbgcolor", name: "projectbgcolor", widget: hidden}
+              - {label: "hl_slide_class", name: "hl_slide_class", widget: hidden}
+              - {label: "pg_trigger_class", name: "pg_trigger_class", widget: hidden}
+              - {label: "video", name: "video", widget: file, required: false}
+              - {label: "Next project (slug)", name: "next_slug", widget: string}

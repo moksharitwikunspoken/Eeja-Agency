@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<title>Voxa Speaker &#8211; Bennet &#8211; Creative Portfolio Theme</title>
+	<title>{{project.title}} &#8211; Bennet &#8211; Creative Portfolio Theme</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 
@@ -71,7 +71,7 @@
 
 	<main>
 				<!-- Preloader -->
-		<div class="preloader-wrap" data-centerLine="Loading">
+		<div class="preloader-wrap" data-centerLine="{{t:loading}}">
 
 			<div class="percentage-wrapper">
 				<div class="percentage" id="precent">
@@ -83,7 +83,7 @@
 						<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>0</span>
 					</span>
             	</div>
-                <div class="percentage-first"><span>wait, wait...</span></div>
+                <div class="percentage-first"><span>{{t:wait-wait}}</span></div>
 				<div class="percentage-last"><span>100</span></div>
 			</div>
 
@@ -111,22 +111,22 @@
 				<!-- Logo -->
 				<div id="clapat-logo" class="hide-ball">
 					<a class="ajax-link" data-type="page-transition" href="index.html">
-						<img class="black-logo" src="assets/images/logo.png" alt="Logo Black">
-						<img class="white-logo" src="assets/images/logo-white.png" alt="Logo White">
+						<img class="black-logo" src="{{img:assets/images/logo.png}}" alt="{{t:logo-black}}">
+						<img class="white-logo" src="{{img:assets/images/logo-white.png}}" alt="{{t:logo-white}}">
 					</a>
 				</div>
 				<!--/Logo -->
 				
-							<nav class="clapat-nav-wrapper"><div class="nav-height"><ul id="menu-main-menu" data-breakpoint="1025" class="flexnav menu"><li id="menu-item-3522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3522 link menu-timeline"><a href="" data-type="page-transition" class="ajax-link"><div class="before-span"><span data-hover="Index">Index</span></div></a></li>
-<li id="menu-item-3519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3519 link menu-timeline"><a href="highlights.html"><div class="before-span"><span data-hover="Projects">Projects</span></div></a>
+							<nav class="clapat-nav-wrapper"><div class="nav-height"><ul id="menu-main-menu" data-breakpoint="1025" class="flexnav menu"><li id="menu-item-3522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3522 link menu-timeline"><a href="" data-type="page-transition" class="ajax-link"><div class="before-span"><span data-hover="{{t:index}}">{{t:index}}</span></div></a></li>
+<li id="menu-item-3519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3519 link menu-timeline"><a href="highlights.html"><div class="before-span"><span data-hover="{{t:projects}}">{{t:projects}}</span></div></a>
 <ul class="sub-menu">
-	<li id="menu-item-3521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3521 link"><a href="highlights.html" data-type="page-transition" class="ajax-link">Highlights</a></li>
-	<li id="menu-item-3517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3517 link"><a href="portfolio.html" data-type="page-transition" class="ajax-link">Portfolio</a></li>
-	<li id="menu-item-3523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3523 link"><a href="playground.html" data-type="page-transition" class="ajax-link">Playground</a></li>
+	<li id="menu-item-3521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3521 link"><a href="highlights.html" data-type="page-transition" class="ajax-link">{{t:highlights}}</a></li>
+	<li id="menu-item-3517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3517 link"><a href="portfolio.html" data-type="page-transition" class="ajax-link">{{t:portfolio}}</a></li>
+	<li id="menu-item-3523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3523 link"><a href="playground.html" data-type="page-transition" class="ajax-link">{{t:playground}}</a></li>
 </ul>
 </li>
-<li id="menu-item-3520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3520 link menu-timeline"><a href="agency.html" data-type="page-transition" class="ajax-link"><div class="before-span"><span data-hover="Agency">Agency</span></div></a></li>
-<li id="menu-item-3518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3518 link menu-timeline"><a href="typography.html" data-type="page-transition" class="ajax-link"><div class="before-span"><span data-hover="Resources">Resources</span></div></a></li>
+<li id="menu-item-3520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3520 link menu-timeline"><a href="agency.html" data-type="page-transition" class="ajax-link"><div class="before-span"><span data-hover="{{t:agency}}">{{t:agency}}</span></div></a></li>
+<li id="menu-item-3518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3518 link menu-timeline"><a href="typography.html" data-type="page-transition" class="ajax-link"><div class="before-span"><span data-hover="{{t:resources}}">{{t:resources}}</span></div></a></li>
 </ul></div></nav>				<!-- Menu Burger -->
 				<div class="button-wrap right menu burger-lines">
 					<div class="icon-wrap parallax-wrap">
@@ -140,7 +140,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="button-text sticky right"><span data-hover="Menu">Menu</span></div>
+					<div class="button-text sticky right"><span data-hover="{{t:menu}}">{{t:menu}}</span></div>
 				</div>
 				<!--/Menu Burger -->
 				
@@ -155,7 +155,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="button-text sticky right"><span data-hover="Let&#039;s Talk">Let&#039;s Talk</span></div>
+						<div class="button-text sticky right"><span data-hover="{{t:lets-talk}}">{{t:lets-talk}}</span></div>
 					</div>
 				</a>
 				<!--/Header Button -->
@@ -178,7 +178,7 @@
 			<div id="hero-styles">
 				<div id="hero-caption" class="content-full-width parallax-scroll-caption">
 					<div class="inner">
-												<h1 class="hero-title caption-timeline"><span>Voxa Speaker</span></h1>												<div class="hero-subtitle caption-timeline onload-shuffle"><div><span>Showcasing creativity</span></div><div class="secondary-font"><span>Through outstanding project design</span></div></div>
+												<h1 class="hero-title caption-timeline"><span>{{project.title}}</span></h1>												<div class="hero-subtitle caption-timeline onload-shuffle"><div><span>{{t:showcasing-creativity}}</span></div><div class="secondary-font"><span>{{t:through-outstanding-project-design}}</span></div></div>
 											</div>
 				</div>
 								<div id="hero-footer">
@@ -190,7 +190,7 @@
 								</div>
 							</div>
 														<div class="button-text sticky left">
-								<span data-hover="Scroll To Explore">Scroll To Explore</span>
+								<span data-hover="{{t:scroll-to-explore}}">{{t:scroll-to-explore}}</span>
 							</div>
 													</div>	
                      </div>
@@ -202,7 +202,7 @@
 		</div>
 		<div id="hero-image-wrapper" class="hero-pixels-cover parallax-scroll-image inherit-header-color">
 			<div id="hero-background-layer" class="parallax-scroll-image">
-				<div id="hero-bg-image" style="background-image:url(assets/images/06hero.jpg)">
+				<div id="hero-bg-image" style="background-image:url({{project.hero}})">
 								</div>
 			</div>
 		</div>
@@ -217,11 +217,11 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-8847a25 elementor-widget elementor-widget-heading" data-id="8847a25" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Zoom Gallery</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">{{t:zoom-gallery}}</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-f296b97 elementor-widget elementor-widget-text-editor" data-id="f296b97" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Simply define your images, specify the image you want to <br />zoom in on and set the desired repeat behavior.</p>								</div>
+									<p>{{t:simply-define-your-images-specify-the-im}}<br />{{t:zoom-in-on-and-set-the-desired-repeat-be}}</p>								</div>
 				</div>
 					</div>
 				</div>
@@ -229,7 +229,7 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-cbbea32 elementor-widget elementor-widget-bennet_zoom_gallery" data-id="cbbea32" data-element_type="widget" data-widget_type="bennet_zoom_gallery.default">
 				<div class="elementor-widget-container">
-					<div class="zoom-gallery"><ul class="zoom-wrapper-gallery" data-heightratio="0.6"><li class="zoom-center"><div class="zoom-img-wrapper"><img decoding="async" src="assets/images/voxa01.jpg" alt="" /></div></li><li><div class="zoom-img-wrapper"><img decoding="async" src="assets/images/voxa02.jpg" alt="" /></div></li><li><div class="zoom-img-wrapper"><img decoding="async" src="assets/images/voxa03.jpg" alt="" /></div></li></ul><div class="zoom-wrapper-thumb"></div></div>				</div>
+					<div class="zoom-gallery"><ul class="zoom-wrapper-gallery" data-heightratio="0.6"><li class="zoom-center"><div class="zoom-img-wrapper"><img decoding="async" src="{{img:assets/images/voxa01.jpg}}" alt="" /></div></li><li><div class="zoom-img-wrapper"><img decoding="async" src="{{img:assets/images/voxa02.jpg}}" alt="" /></div></li><li><div class="zoom-img-wrapper"><img decoding="async" src="{{img:assets/images/voxa03.jpg}}" alt="" /></div></li></ul><div class="zoom-wrapper-thumb"></div></div>				</div>
 				</div>
 					</div>
 				</div>
@@ -237,7 +237,7 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-c447178 elementor-widget elementor-widget-heading" data-id="c447178" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Zoom In Again</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">{{t:zoom-in-again}}</h2>				</div>
 				</div>
 					</div>
 				</div>
@@ -245,7 +245,7 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-a0eb797 elementor-widget elementor-widget-bennet_zoom_gallery" data-id="a0eb797" data-element_type="widget" data-widget_type="bennet_zoom_gallery.default">
 				<div class="elementor-widget-container">
-					<div class="zoom-gallery"><ul class="zoom-wrapper-gallery" data-heightratio="0.6"><li><div class="zoom-img-wrapper"><img decoding="async" src="assets/images/voxa01.jpg" alt="" /></div></li><li class="zoom-center"><div class="zoom-img-wrapper"><img decoding="async" src="assets/images/voxa02.jpg" alt="" /></div></li><li><div class="zoom-img-wrapper"><img decoding="async" src="assets/images/voxa03.jpg" alt="" /></div></li></ul><div class="zoom-wrapper-thumb"></div></div>				</div>
+					<div class="zoom-gallery"><ul class="zoom-wrapper-gallery" data-heightratio="0.6"><li><div class="zoom-img-wrapper"><img decoding="async" src="{{img:assets/images/voxa01.jpg}}" alt="" /></div></li><li class="zoom-center"><div class="zoom-img-wrapper"><img decoding="async" src="{{img:assets/images/voxa02.jpg}}" alt="" /></div></li><li><div class="zoom-img-wrapper"><img decoding="async" src="{{img:assets/images/voxa03.jpg}}" alt="" /></div></li></ul><div class="zoom-wrapper-thumb"></div></div>				</div>
 				</div>
 					</div>
 				</div>
@@ -253,11 +253,11 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-3af0c68 elementor-widget elementor-widget-heading" data-id="3af0c68" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Credits</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">{{t:credits}}</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-d5d81f6 elementor-widget elementor-widget-text-editor" data-id="d5d81f6" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>These images are credited to the following author.</p>								</div>
+									<p>{{t:these-images-are-credited-to-the-followi}}</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-05488cc elementor-widget elementor-widget-spacer" data-id="05488cc" data-element_type="widget" data-widget_type="spacer.default">
 				<div class="elementor-widget-container">
@@ -268,7 +268,7 @@
 				</div>
 				<div class="elementor-element elementor-element-33381e1 elementor-widget elementor-widget-bennet_button" data-id="33381e1" data-element_type="widget" data-widget_type="bennet_button.default">
 				<div class="elementor-widget-container">
-					<div class="button-box"><div class="clapat-button-wrap parallax-wrap hide-ball"><div class="clapat-button parallax-element"><div class="button-border parallax-element-second rounded"><span data-hover="View Project">View Project</span></div></div></div></div>				</div>
+					<div class="button-box"><div class="clapat-button-wrap parallax-wrap hide-ball"><div class="clapat-button parallax-element"><div class="button-border parallax-element-second rounded"><span data-hover="{{t:view-project}}">{{t:view-project}}</span></div></div></div></div>				</div>
 				</div>
 					</div>
 				</div>
@@ -276,7 +276,7 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-2016c97 elementor-widget elementor-widget-bennet_zoom_gallery" data-id="2016c97" data-element_type="widget" data-widget_type="bennet_zoom_gallery.default">
 				<div class="elementor-widget-container">
-					<div class="zoom-gallery"><ul class="zoom-wrapper-gallery" data-heightratio="0.6"><li><div class="zoom-img-wrapper"><img decoding="async" src="assets/images/voxa01.jpg" alt="" /></div></li><li><div class="zoom-img-wrapper"><img decoding="async" src="assets/images/voxa02.jpg" alt="" /></div></li><li class="zoom-center"><div class="zoom-img-wrapper"><img decoding="async" src="assets/images/voxa03.jpg" alt="" /></div></li></ul><div class="zoom-wrapper-thumb"></div></div>				</div>
+					<div class="zoom-gallery"><ul class="zoom-wrapper-gallery" data-heightratio="0.6"><li><div class="zoom-img-wrapper"><img decoding="async" src="{{img:assets/images/voxa01.jpg}}" alt="" /></div></li><li><div class="zoom-img-wrapper"><img decoding="async" src="{{img:assets/images/voxa02.jpg}}" alt="" /></div></li><li class="zoom-center"><div class="zoom-img-wrapper"><img decoding="async" src="{{img:assets/images/voxa03.jpg}}" alt="" /></div></li></ul><div class="zoom-wrapper-thumb"></div></div>				</div>
 				</div>
 					</div>
 				</div>
@@ -284,7 +284,7 @@
 		
 				</div>
 
-								<!-- Project Navigation --><div id="project-nav" class="pinned-nav-caption move-title-onload auto-trigger change-header" data-next-bgcolor="#f0efeb"><div class="next-project-wrap"><div id="next-project-caption" class="text-align-center content-full-width"><div class="next-caption-wrapper"><a class="next-ajax-link-project" data-type="page-transition" href="portfolio-kivira-naturals.html" data-firstline="Next" data-secondline="Project"></a><div class="next-caption"><div class="next-hero-title caption-timeline has-shuffle-title" data-firstline="Next" data-secondline="Project"><span>Kivira Naturals</span></div><div class="next-hero-subtitle caption-timeline secondary-font"><span>Keep Scrolling</span></div></div></div></div><div class="next-hero-progress"><span></span></div><div class="next-project-image-wrapper"><div class="next-project-image next-project-image-effects"><div class="next-project-image-bg" style="background-image:url(assets/images/05hero.jpg)"></div></div></div></div></div><!--/Project Navigation -->
+								<!-- Project Navigation --><div id="project-nav" class="pinned-nav-caption move-title-onload auto-trigger change-header" data-next-bgcolor="#f0efeb"><div class="next-project-wrap"><div id="next-project-caption" class="text-align-center content-full-width"><div class="next-caption-wrapper"><a class="next-ajax-link-project" data-type="page-transition" href="portfolio-{{project.next_slug}}.html" data-firstline="{{t:next}}" data-secondline="{{t:project}}"></a><div class="next-caption"><div class="next-hero-title caption-timeline has-shuffle-title" data-firstline="{{t:next}}" data-secondline="{{t:project}}"><span>{{project.next_title}}</span></div><div class="next-hero-subtitle caption-timeline secondary-font"><span>{{t:keep-scrolling}}</span></div></div></div></div><div class="next-hero-progress"><span></span></div><div class="next-project-image-wrapper"><div class="next-project-image next-project-image-effects"><div class="next-project-image-bg" style="background-image:url({{project.next_hero}})"></div></div></div></div></div><!--/Project Navigation -->
 			</div>
 			<!--/Main Content-->
 
@@ -300,18 +300,18 @@
 								<i class="fa-solid fa-angle-up"></i>
 							</div>
 						</div>
-						<div class="button-text sticky left"><span data-hover="Back Top">Back Top</span></div>
+						<div class="button-text sticky left"><span data-hover="{{t:back-top}}">{{t:back-top}}</span></div>
 					</div>
 									
-									<div class="footer-middle"><div class="copyright">2025 © <a class="link" target="_blank" >ClaPat</a>. All rights reserved.</div></div>
+									<div class="footer-middle"><div class="copyright">2025 © <a class="link" target="_blank" >{{t:clapat}}</a>{{t:all-rights-reserved}}</div></div>
 				
 								
 								
 										<div class="socials-wrap">
 							<div class="socials-icon"><i class="fa-solid fa-share-nodes"></i></div>
-							<div class="socials-text">Follow Us</div>
+							<div class="socials-text">{{t:follow-us}}</div>
 							<ul class="socials">
-								<li><span class="parallax-wrap"><span class="parallax-element">Db</span></span></li><li><span class="parallax-wrap"><span class="parallax-element">Tw</span></span></li><li><span class="parallax-wrap"><span class="parallax-element">Be</span></span></li><li><span class="parallax-wrap"><span class="parallax-element">Fb</span></span></li><li><span class="parallax-wrap"><span class="parallax-element">In</span></span></li>							</ul>
+								<li><span class="parallax-wrap"><span class="parallax-element">{{t:db}}</span></span></li><li><span class="parallax-wrap"><span class="parallax-element">{{t:tw}}</span></span></li><li><span class="parallax-wrap"><span class="parallax-element">{{t:be}}</span></span></li><li><span class="parallax-wrap"><span class="parallax-element">{{t:fb}}</span></span></li><li><span class="parallax-wrap"><span class="parallax-element">{{t:in}}</span></span></li>							</ul>
 						</div>
 
 				</div>

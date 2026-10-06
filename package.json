@@ -1,0 +1,9 @@
+{
+  "name": "eeja-agency-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Eeja Agency static site + Sveltia CMS content, built to dist/ for Cloudflare Pages",
+  "scripts": {
+    "build": "node tools/build.mjs"
+  }
+}
